@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.9.8",
+    "sequelize": "^6.37.3"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

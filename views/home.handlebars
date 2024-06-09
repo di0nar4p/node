@@ -1,0 +1,11 @@
+<a href="/cad"><button>Nova postagem</button></a><br>
+<h1>Lista de posts: </h1>
+
+{{#each posts}}
+    <h1>{{titulo}}</h1>
+    <p>{{conteudo}}</p>
+    <small>{{createdAt}}</small><br>
+    <a href="/del/{{id}}"><br> 
+    <button>Deletar</button></a>
+    <hr>
+{{/each}}
